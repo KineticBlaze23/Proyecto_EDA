@@ -19,5 +19,5 @@ class Arista:
         return self.destino
     
     #Impresion de los nodos conectados
-    #def __str__(self):
-        #return self.origen.get_valor() + "---->" + self.destino.get_valor()
+    def __str__(self):
+        return self.origen.get_clave() + "---->" + self.destino.get_clave()
