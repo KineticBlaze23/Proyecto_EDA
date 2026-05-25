@@ -47,7 +47,7 @@ while True:
 
         else:
 
-            print("\n---RECORRIDO BFS---")
+            print("\n--- RECORRIDO BFS ---")
 
             inicio = input("Ingrese nodo inicio: ")
             fin = input("Ingrese nodo final: ")
@@ -72,18 +72,23 @@ while True:
                     nodo_fin
                 )
 
-                # Calcular saltos
-                saltos_bfs = len(ruta_bfs) - 1
+                if len(ruta_bfs) == 0:
 
-                print("\nRuta encontrada:")
-                print(ruta_bfs)
+                    print("\nNo existe un camino entre los nodos")
 
-                print("\nCantidad de saltos:")
-                print(saltos_bfs)
+                else:
 
-                print("\nBFS garantiza")
-                print("el camino más corto.")
+                    # Calcular saltos
+                    saltos_bfs = len(ruta_bfs) - 1
 
+                    print("\nRuta encontrada:")
+                    print(ruta_bfs)
+
+                    print("\nCantidad de saltos:")
+                    print(saltos_bfs)
+
+                    print("\nBFS garantiza el camino más corto")
+                    
     # DFS
     elif opcion == "3":
 
@@ -139,16 +144,15 @@ while True:
                 print("\nOrden de visita:")
                 print(orden_visita)
 
-                print("\nRuta encontrada:")
+                print("\nRuta encontrada DFS:")
                 print(componentR)
 
-                print("\nCantidad de saltos:")
+                print("\nCantidad de saltos DFS:")
                 print(saltos_dfs)
 
-                print("\nDFS NO garantiza")
-                print("el camino más corto.")
-
                 print("\n---COMPARACIÓN---")
+
+                print("Ruta BFS:", ruta_bfs)
 
                 print("Saltos BFS:", saltos_bfs)
                 print("Saltos DFS:", saltos_dfs)
