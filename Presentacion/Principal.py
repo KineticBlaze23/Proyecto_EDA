@@ -4,7 +4,6 @@ from Entidades.Grafo import Grafo
 from Entidades.Nodo import Nodo
 from Entidades.Arista import Arista
 from Logica.Bfs import bfs
-
 #Menú principal del programa
 grafo = None
 while True:

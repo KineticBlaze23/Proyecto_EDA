@@ -1,5 +1,5 @@
 #Llamada a la clase Grafo para poder usar sus métodos y atributos
-from Entidades.Grafo import Grafo
+from Proyecto_EDA.Entidades.Grafo import Grafo
 
 
 #Definicion del método DFS 
