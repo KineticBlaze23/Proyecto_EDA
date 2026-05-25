@@ -24,10 +24,3 @@ class Grafo:
         
         nodo_origen = self.grafo_diccionario[origen.get_clave()]
         nodo_origen.agregar_vecino(destino)
-
-    # Mostrar grafo en consola
-    def mostrar(self):
-        for clave in self.grafo_diccionario:
-            nodo = self.grafo_diccionario[clave]
-            vecinos = [v.get_clave() for v in nodo.vecinos]
-            print(f"{clave} -> {vecinos}")
