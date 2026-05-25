@@ -1,3 +1,5 @@
+
+from Entidades.Arista import Arista
 class Grafo:
     # Representación del grafo con diccionario: clave -> Nodo
     def __init__(self):

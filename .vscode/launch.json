@@ -1,0 +1,16 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Proyecto EDA",
+            "type": "debugpy",
+            "request": "launch",
+
+            "module": "Presentacion.Principal",
+
+            "cwd": "${workspaceFolder}",
+
+            "console": "integratedTerminal"
+        }
+    ]
+}
