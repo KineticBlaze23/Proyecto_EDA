@@ -164,11 +164,6 @@ while True:
                 elif saltos_dfs == saltos_bfs:
 
                     print("\nDFS encontró una ruta igual a BFS")
-
-                else:
-
-                    print("\nDFS encontró una ruta más corta")
-
     # Salir
     elif opcion == "4":
 
