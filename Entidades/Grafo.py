@@ -24,24 +24,3 @@ class Grafo:
         
         nodo_origen = self.grafo_diccionario[origen.get_clave()]
         nodo_origen.agregar_vecino(destino)
-
-    # Mostrar grafo
-    def mostrar(self):
-
-        print("\n---GRAFO---\n")
-
-        # Recorrer cada nodo del diccionario
-        for clave in self.grafo_diccionario:
-
-            nodo = self.grafo_diccionario[clave]
-
-            # Lista para guardar claves de vecinos
-            vecinos = []
-
-            # Recorrer vecinos del nodo
-            for vecino in nodo.vecinos:
-
-                vecinos.append(vecino.get_clave())
-
-            # Mostrar nodo y vecinos
-            print(f"{clave} -> {vecinos}")
