@@ -13,7 +13,7 @@
 
 4. Damos click en *cree un archivo launch.json* y seleccionamos python debugger, y archivo de python.
 
-<img width="502" height="261" alt="image" src="https://github.com/user-attachments/assets/1777b330-48b2-4140-aa9b-66e2a308426d" 
+<img width="502" height="261" alt="image" src="https://github.com/user-attachments/assets/1777b330-48b2-4140-aa9b-66e2a308426d">
   
 <img width="695" height="226" alt="image" src="https://github.com/user-attachments/assets/48dc11bb-90ab-4787-b12a-ac1b95f0b5c5" />
 
