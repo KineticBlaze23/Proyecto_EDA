@@ -18,6 +18,8 @@
 <img width="695" height="226" alt="image" src="https://github.com/user-attachments/assets/48dc11bb-90ab-4787-b12a-ac1b95f0b5c5" />
 
 5. En este archivo tenemos que ingresar el siguiente codigo en en launch.json:
+
+```json
 {
     "version": "0.2.0",
     "configurations": [
@@ -34,6 +36,7 @@
         }
     ]
 }
+```
 
 <img width="638" height="292" alt="image" src="https://github.com/user-attachments/assets/8a47708f-9f4b-4ee9-a889-618086b6419f" />
 
