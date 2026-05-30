@@ -46,5 +46,3 @@
 7. Ejecucion sin problemas
 <img width="980" height="632" alt="image" src="https://github.com/user-attachments/assets/25db8357-a285-46f2-b926-3c9c9d2161dc" />
 
-   
-La manera de ejecutar el programa debe ser desde el apartado de depuración. Dado que el programa funciona con paquetes es necesario realizarlo de esa manera. Al hacerlo mediante depuracion en la terminal se podra observar. Se realizó el proyecto en el programa "Visual Studio Code". 
